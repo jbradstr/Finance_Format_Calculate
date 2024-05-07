@@ -1,9 +1,13 @@
 # Finance_Format_Calculate
-Through the use of VBA I helped the Finance Department organize data that had been copied from a website, bringing along multiple ASCII characters.  The worksheet I set up for them allows them to select a button which creates their target worksheet.
+Through the use of VBA I helped the Finance Department organize data that had been copied from a website, bringing along multiple ASCII characters.  The worksheet I set up for them allows them to select a button which creates their target worksheet. A reset button was added to allow for the client to start the process over for the next week. See images for outputs of each button.
 
 ![Step1](https://github.com/jbradstr/Finance_Format_Calculate/blob/main/step1.png?raw=true)
 
-The next button formats the data as autofit does not work on the copied data.  It also sorts the data to only select the specific school district and replaces ascii character 160 with nothing. Finally it loops through the data summing the dollar amounts for each category and displaying them next to the last row of that category.  A reset button was added to allow for the client to start the process over for the next week. See images for outputs of each button.
+![Step1a](https://github.com/jbradstr/Finance_Format_Calculate/blob/main/step1a.png?raw=true)
+
+The next button formats the data as autofit does not work on the copied data.  It also sorts the data to only select the specific school district and replaces ascii character 160 with nothing. Finally it loops through the data summing the dollar amounts for each category and displaying them next to the last row of that category.  
+
+![Step1a](https://github.com/jbradstr/Finance_Format_Calculate/blob/main/step2.png?raw=true)
 
 ```vbscript
 
